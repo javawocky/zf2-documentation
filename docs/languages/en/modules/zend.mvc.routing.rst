@@ -57,7 +57,7 @@ A ``Route`` accepts a ``Request``, and determines if it matches. If so, it retur
    }
 
 Typically, when a ``Route`` matches, it will define one or more parameters. These are passed into the
-``RouteMatch``, and objects may query the ``RouteMatch`` for their values.
+``RouteMatch`` object, and other objects may query ``RouteMatch`` for its values.
 
 .. code-block:: php
    :linenos:
